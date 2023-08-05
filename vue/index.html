@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Калькулятор</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <input type="text" v-model="result" readonly>
+    <div class="buttons">
+      <button @click="appendCharacter('7')">7</button>
+      <button @click="appendCharacter('8')">8</button>
+      <button @click="appendCharacter('9')">9</button>
+      <button @click="appendCharacter('/')">/</button>
+      <button @click="appendCharacter('4')">4</button>
+      <button @click="appendCharacter('5')">5</button>
+      <button @click="appendCharacter('6')">6</button>
+      <button @click="appendCharacter('*')">*</button>
+      <button @click="appendCharacter('1')">1</button>
+      <button @click="appendCharacter('2')">2</button>
+      <button @click="appendCharacter('3')">3</button>
+      <button @click="appendCharacter('-')">-</button>
+      <button @click="appendCharacter('0')">0</button>
+      <button @click="appendCharacter('.')">.</button>
+      <button @click="calculateResult()">=</button>
+      <button @click="appendCharacter('+')">+</button>
+      <button @click="clearResult()">C</button>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+  <script src="script.js"></script>
+</body>
+</html>

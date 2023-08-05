@@ -1,0 +1,85 @@
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .buttons {
+    display: flex;
+  }
+  
+  .column {
+    flex: 1;
+    margin-left: 7px;
+  }
+  
+  .buttons button {
+    width: 100%;
+    height: 49px;
+    font-size: 20px;
+    margin: 5px;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .buttons button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  #result {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .history {
+    margin-top: 2px;
+    text-align: left;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+    margin-left: 6px;
+  }
+  
+  .history-item {
+    margin-bottom: 5px;
+  }
+  
+  .show-history {
+    display: none;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .show-history button {
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .show-history button:hover {
+    background-color: #e0e0e0;
+  }
+  .resulte{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    margin: 5px;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .resulte:hover{
+    background-color: #e0e0e0;
+
+  }
